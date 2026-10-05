@@ -17,6 +17,8 @@ classifiers = [
 ]
 requires-python = "~=3.12.0"
 dependencies = [
+    "loguru>=0.7.3",
+    "matplotlib>=3.11.2",
     "tensorflow>=2.21.0",
 ]
 
@@ -32,4 +34,9 @@ extend-select = ["I"]  # Add import sorting
 [tool.ruff.lint.isort]
 known-first-party = ["deep_learning"]
 force-sort-within-sections = true
+
+[dependency-groups]
+dev = [
+    "ipykernel>=7.4.0",
+]
 
