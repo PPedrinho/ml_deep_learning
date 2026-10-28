@@ -105,7 +105,6 @@ def process_image(
             height + text_size[1]
         ) // 2
 
-
         cv2.putText(
             image,
             label,

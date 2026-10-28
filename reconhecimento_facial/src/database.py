@@ -4,7 +4,6 @@ import numpy as np
 
 from deepface import DeepFace
 
-
 SUPPORTED_EXTENSIONS = {
     ".jpg",
     ".jpeg",

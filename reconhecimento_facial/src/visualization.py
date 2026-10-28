@@ -6,7 +6,6 @@ from src.config import (
     WHITE,
 )
 
-
 def draw_result(
     image,
     face,

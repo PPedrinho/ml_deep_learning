@@ -3,7 +3,6 @@ import numpy as np
 from deepface import DeepFace
 from deepface.modules.exceptions import FaceNotDetected
 
-
 def cosine_distance(
     embedding_1,
     embedding_2,
